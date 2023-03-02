@@ -27,7 +27,7 @@ console.log('And this is my lucky number: ' + luckyNumber);
 console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = true;
+let adventurous = false;
 console.log('I am adventurous:', adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -43,21 +43,42 @@ let friendsPets = 2;
 console.log('My best friend Adrianna has', friendsPets, 'cats.');
 
 // 11 - Add two pets to your `pets` variable
+pets += 2;
+console.log('Surprise! I am watching her cats for the weekend, so now I have', pets, 'pets at my house.');
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 5;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
+if(adventurous === true){
+    console.log('Adventures are great!');
+} else {
+    console.log('How about we stay home?');
+}
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+if(luckyNumber === 2 && adventurous === true){
+    console.log('Roll the dice!');
+} else {
+    console.log('Not my lucky day.');
+}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+if(pets < allowedPets){
+  console.log('I can have more pets!');
+}
+else if(pets === allowedPets){
+  console.log('I have enough pets.');
+} 
+else{
+  console.log('Oh no, I Have too many pets!');
+}
 
 // STRETCH GOALS:
 
