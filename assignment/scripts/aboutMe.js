@@ -1,36 +1,46 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'mandi';
-console.log(firstName);
+console.log('This is my name:', firstName);
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'andrade';
-console.log(lastName);
+console.log('This is my last name:', lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName + ' ' + lastName;
-console.log(fullName);
-console.log(firstName, lastName);
+console.log('This is my full name: ' + fullName);
+console.log('This is also my full name:', firstName, lastName);
 
 // 4 - Console log the value of `fullName`
+console.log('Below is my full name one more time for good measure:');
 console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 2;
-console.log(luckyNumber);
+console.log('And this is my lucky number: ' + luckyNumber);
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
+console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
+let adventurous = true;
+console.log('I am adventurous:', adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
+let food =  'coffee, ramen, pancakes, and tacos'
+console.log('My favorite foods are:', food);
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
+let pets = 1;
+console.log('I have', pets, 'dog named Lola.');
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 2;
+console.log('My best friend Adrianna has', friendsPets, 'cats.');
 
 // 11 - Add two pets to your `pets` variable
 
