@@ -99,7 +99,30 @@ if(pets < friendsPets){
     console.log('We have the same amount of pets:', mostPets);
 }
 
-//PENDING FOR SECOND ITERATION: mostPets = 0;
+//SECOND ITERATION BELOW;
+mostPets = 0; 
+pets = 1;
+friendsPets = 2; 
+
+if(pets >= friendsPets){
+    mostPets = pets;
+    console.log('This is my second iteration, I Have most pets:', mostPets);
+}else if(pets <= friendsPets){
+    mostPets = friendsPets;
+    console.log('This is my second iteration, friend has most pets:', mostPets);
+}
+
+// I THINK A FASTER OR MORE EFFICIENT WAY TO WRITE THE CODE ABOVE COULD BE: 
+
+if(pets >= friendsPets){
+    mostPets = pets;
+}else{
+    mostPets = friendsPets;
+}
+
+console.log('This is my third and final iteration:', mostPets);
+
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
